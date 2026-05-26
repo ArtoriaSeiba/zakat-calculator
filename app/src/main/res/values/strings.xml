@@ -37,8 +37,8 @@
 
     <!-- About Page Strings -->
     <string name="developer_details"><b>Developer Details:</b>\n\nName: Muhammad Irfan Niesa Razis\nStudent ID: 2025110281\nGroup: RCDCS2515B\nProgramme: CDCS251</string>
-    <string name="copyright">© 2024 Zakat Gold Calculator. All Rights Reserved.</string>
-    <string name="github_url">https://github.com/irfanniesa/zakat-gold-calculator</string>
+    <string name="copyright">© 2026 Zakat Gold Calculator. All Rights Reserved.</string>
+    <string name="github_url">https://github.com/ArtoriaSeiba/zakat-calculator</string>
 
     <!-- Theme Strings -->
     <string name="choose_theme">Choose Theme</string>
