@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Premium Islamic Theme Colors -->
+    <color name="primary">#2E7D32</color>
+    <color name="primaryVariant">#1B5E20</color>
+    <color name="secondary">#FFD700</color>
+    <color name="accent">#FFA000</color>
+
+    <color name="background">#F0F2F0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="result_highlight">#FFF9C4</color>
+    <color name="error_red">#D32F2F</color>
+
+    <!-- Darker Text Colors -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#212121</color>
+    <color name="text_hint">#424242</color>
+</resources>

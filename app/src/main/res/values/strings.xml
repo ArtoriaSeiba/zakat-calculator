@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string name="instructions">Enter the gold weight and current price. Select \'Keep\' for gold not worn, or \'Wear\' for gold worn as jewelry.</string>
+    <string name="gold_weight_grams">Gold Weight (grams)</string>
+    <string name="type_of_gold">Type of Gold:</string>
+    <string name="keep">Keep (Exemption: 85g)</string>
+    <string name="wear">Wear (Exemption: 200g)</string>
+    <string name="current_gold_value_per_gram">Current Gold Value (RM/gram)</string>
+    <string name="calculate">Calculate Zakat</string>
+    <string name="reset">Reset Fields</string>
+
+    <!-- Outputs -->
+    <string name="total_gold_value_rm">Total Gold Value: RM %.2f</string>
+    <string name="weight_minus_x">Gold Weight Minus X (Uruf): %.2f g</string>
+    <string name="zakat_payable_value_rm">Zakat Payable Value: RM %.2f</string>
+    <string name="total_zakat_rm">Total Zakat: RM %.2f</string>
+
+    <string name="about">About Developer</string>
+    <string name="share">Share App</string>
+    <string name="error_empty">This field is required</string>
+    <string name="results_header">Calculation Results</string>
+    <string name="source_code_header">Project Source Code:</string>
+    <string name="about_icon_desc">Info Icon</string>
+    <string name="total_zakat_payable_label">Total Zakat Payable</string>
+    <string name="input_summary">Input Summary</string>
+    <string name="gold_weight_label">Gold Weight:</string>
+    <string name="gold_type_label">Gold Type:</string>
+    <string name="gold_price_label">Gold Price:</string>
+    <string name="back_to_calc">Back to Calculator</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_about">About</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_theme">Theme</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- About Page Strings -->
+    <string name="developer_details"><b>Developer Details:</b>\n\nName: Muhammad Irfan Niesa Razis\nStudent ID: 2025110281\nGroup: RCDCS2515B\nProgramme: CDCS251</string>
+    <string name="copyright">© 2024 Zakat Gold Calculator. All Rights Reserved.</string>
+    <string name="github_url">https://github.com/irfanniesa/zakat-gold-calculator</string>
+
+    <!-- Theme Strings -->
+    <string name="choose_theme">Choose Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+</resources>
