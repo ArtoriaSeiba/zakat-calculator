@@ -50,9 +50,9 @@ public class ResultActivity extends AppCompatActivity {
         tvWeightMinusX.setText(getString(R.string.weight_minus_x, weightMinusX));
         tvPayableValue.setText(getString(R.string.zakat_payable_value_rm, payableValue));
 
-        tvSummaryWeight.setText(getString(R.string.gold_weight_label) + " " + weight + "g");
-        tvSummaryType.setText(getString(R.string.gold_type_label) + " " + type);
-        tvSummaryPrice.setText(getString(R.string.gold_price_label) + " RM" + price + "/g");
+        tvSummaryWeight.setText(getString(R.string.summary_weight, weight));
+        tvSummaryType.setText(getString(R.string.summary_type, type));
+        tvSummaryPrice.setText(getString(R.string.summary_price, price));
 
         Button btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(v -> finish());

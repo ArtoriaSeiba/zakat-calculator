@@ -24,9 +24,9 @@
     <string name="about_icon_desc">Info Icon</string>
     <string name="total_zakat_payable_label">Total Zakat Payable</string>
     <string name="input_summary">Input Summary</string>
-    <string name="gold_weight_label">Gold Weight:</string>
-    <string name="gold_type_label">Gold Type:</string>
-    <string name="gold_price_label">Gold Price:</string>
+    <string name="summary_weight">Gold Weight: %.2f g</string>
+    <string name="summary_type">Gold Type: %s</string>
+    <string name="summary_price">Gold Price: RM %.2f/g</string>
     <string name="back_to_calc">Back to Calculator</string>
     <string name="nav_home">Home</string>
     <string name="nav_about">About</string>

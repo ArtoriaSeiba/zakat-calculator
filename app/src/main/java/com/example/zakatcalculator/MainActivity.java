@@ -13,6 +13,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
@@ -70,6 +71,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         btnCalculate.setOnClickListener(v -> calculateZakat());
         btnReset.setOnClickListener(v -> resetFields());
+
+        // Modern way to handle back button (replaces onBackPressed)
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+                    drawerLayout.closeDrawer(GravityCompat.START);
+                } else {
+                    // This allows the default back behavior (closing the app)
+                    setEnabled(false);
+                    getOnBackPressedDispatcher().onBackPressed();
+                }
+            }
+        });
     }
 
     private void calculateZakat() {
@@ -179,15 +194,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
         builder.show();
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
     }
 
     @Override
